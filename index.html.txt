@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Your Name] – Massage Therapist</title>
+
+<style>
+:root {
+  --bg: #f6f7f5;
+  --primary: #4a6f5d;
+  --secondary: #7fa391;
+  --text: #2f2f2f;
+  --light: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+              url("https://images.unsplash.com/photo-1600334129128-685c5582fd35");
+  background-size: cover;
+  background-position: center;
+  color: var(--light);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+section {
+  padding: 70px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+.about p,
+.approach p {
+  margin-bottom: 15px;
+}
+
+.highlight {
+  background: var(--light);
+  padding: 30px;
+  border-left: 5px solid var(--primary);
+  margin: 40px 0;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--light);
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+.promo {
+  background: var(--primary);
+  color: var(--light);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.promo h2 {
+  color: var(--light);
+}
+
+.promo span {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #1f2f28;
+  color: #dcdcdc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>[Your Name]</h1>
+  <p>Swedish Massage Therapist — helping you release tension, restore movement, and feel at home in your body again.</p>
+</header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    I’m a newly certified Swedish massage therapist educated at AM Academy.
+    My approach is non-judgemental, open, friendly, and respectful.
+  </p>
+  <p>
+    I believe your body isn’t meant to ache 24/7 — and that with the right support,
+    awareness, and time, real change is possible.
+  </p>
+  <p>
+    I enjoy working with longer sessions where we slow down, listen to the body,
+    and work together to release tension and long-held accumulations.
+  </p>
+</section>
+
+<section class="approach">
+  <h2>My Approach</h2>
+  <div class="highlight">
+    <p>
+      Each session is adapted to you. I work intuitively and holistically,
+      combining therapeutic Swedish massage with optional stretching and breathing.
+    </p>
+    <p>
+      You don’t need experience with stretching or breathwork — I guide you gently,
+      always respecting your limits and comfort.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Sessions</h2>
+  <div class="services">
+    <div class="card">
+      <h3>60-Minute Session</h3>
+      <p>Focused therapeutic massage for relaxation and tension relief.</p>
+    </div>
+    <div class="card">
+      <h3>90-Minute Session</h3>
+      <p>Deeper work with time for stretching and nervous system regulation.</p>
+    </div>
+    <div class="card">
+      <h3>120-Minute Session</h3>
+      <p>Extended bodywork for chronic tension and full-body integration.</p>
+    </div>
+  </div>
+</section>
+
+<section class="promo">
+  <h2>Opening Promotion 🎉</h2>
+  <p>Newly certified massage therapist</p>
+  <span>100 kr OFF</span>
+  <p>Any session – valid for the next month</p>
+  <p><em>Simply mention “Opening Promotion” when booking.</em></p>
+</section>
+
+<section class="contact">
+  <h2>Contact & Booking</h2>
+  <p>📍 [City / Location]</p>
+  <p>📞 [Phone number]</p>
+  <p>📧 [Email address]</p>
+  <p>🗓 Book by message or appointment system</p>
+</section>
+
+<footer>
+  <p>© [Year] [Your Name] — Swedish Massage Therapist</p>
+</footer>
+
+</body>
+</html>
